@@ -5,7 +5,7 @@ module.exports = [
   /** CommonJS 配置 */
   merge(commonConfig, {
     output: {
-      filename: "cjs.bundle.js",
+      filename: "index.cjs",
       libraryTarget: 'commonjs2',
     },
   }),
@@ -13,7 +13,7 @@ module.exports = [
   /** ESM 配置 */
   merge(commonConfig, {
     output: {
-      filename: "esm.bundle.js",
+      filename: "index.mjs",
       libraryTarget: 'module',
     },
     experiments: {
