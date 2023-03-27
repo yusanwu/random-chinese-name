@@ -28,3 +28,5 @@ function wordFilter(base: string[], wait: string[]): void {
   }
   console.log(`新字字库：${JSON.stringify(res)}`);
 }
+
+wordFilter(['1'], ['2'])

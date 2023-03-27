@@ -17,7 +17,8 @@
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
     "karma:init": "karma init",
-    "karma:test": "karma start"
+    "karma:test": "karma start",
+    "execute": "node --loader ts-node/esm --inspect"
   },
   "keywords": [
     "random chinese name"
